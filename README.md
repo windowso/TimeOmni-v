@@ -294,3 +294,18 @@ tests/                      # CPU-only smoke tests for processing, dataset, samp
 ```
 
 For the exact M-RoPE math, `masked_scatter` flow in the forward pass, length-estimator contract, and the precise list of frozen parameters, the source of truth is the code itself — `timeomni_v/modeling/`, `timeomni_v/processing/`, and `timeomni_v/data/length_estimate.py` are the relevant entry points.
+
+---
+
+## 8. Citation
+
+If you use MMTA or TimeOmni-v in your research, please cite:
+
+```bibtex
+@inproceedings{zhang2026mmta,
+  title     = {{MMTA}: Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Vision},
+  author    = {Zhang, Ziyang and Li, Shenyi and Wang, Yilin and Cui, Ziyun and Zhou, Bowen and Wu, Wen and Zhang, Chao},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track},
+  year      = {2026}
+}
+```
