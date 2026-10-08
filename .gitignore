@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+*.egg
+CoVLA-Dataset/timeseries/
+CoVLA-Dataset/*.jsonl
+CoVLA-Dataset/video_clips/
+*.safetensors
+smoke.log
+train_smoke.log
+.claude/
+runs*/
+ckpts/
+ckpts
+*.json*
+
+# Local-only data trees / symlinks pointing at machine-specific paths.
+data/video_ts
+data/image_ts
+data/merged_classification
